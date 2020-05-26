@@ -1,7 +1,7 @@
 :root {
   --color-primary: #b43030;
-  --color-primary-light: rgb(113, 75, 250);
-  --color-primary-dark: rgb(42, 27, 177);
+  --color-primary-light: rgb(250, 75, 75);
+  --color-primary-dark: rgb(117, 6, 6);
   --color-grey-light-1: #faf9f9;
   --color-grey-light-2: #f4f2f2;
   --color-grey-light-3: #f0eeee;
@@ -466,8 +466,10 @@ body {
     .cta {
       padding: 2.5rem 0; } }
   .cta__book-now {
+    color: black;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #ac1a1a;
     text-transform: uppercase;
     margin-bottom: 2.5rem; }
 

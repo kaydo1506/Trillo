@@ -517,8 +517,10 @@
     }
 
     &__book-now {
+        color: black;
         font-size: 2rem;
-        font-weight: 300;
+        font-weight: 800;
+        text-shadow: 2px 2px 4px rgb(172, 26, 26);
         text-transform: uppercase;
         margin-bottom: 2.5rem;
     }
